@@ -54,7 +54,7 @@ supply_transition=function(country_supply_file=NA, state_supply_file=NA, msa_sup
   
   if(!threshold_msa %in% c("yes", "no"))
   {
-    stop("sum_up_msa should be either 'yes' or 'no'")
+    stop("threshold_msa should be either 'yes' or 'no'")
   }
   
   if(is.data.frame(country_supply_file))
